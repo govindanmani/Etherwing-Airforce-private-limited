@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.7.7/build/spline-viewer.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--
+// v0 by Vercel.
+// https://v0.dev/t/9sjR0cXALfb
+-->
+
+    <!--
+// v0 by Vercel.
+// https://v0.dev/t/bdaAJzahZZJ
+-->
+
+    <div class="flex flex-col min-h-[100dvh] bg-background dark:bg-[#1a1b1e] text-foreground dark:text-foreground">
+        <header class="sticky top-0 z-50 bg-background/90 dark:bg-[#1a1b1e]/90 backdrop-blur">
+            <div class="container flex items-center justify-between py-4 px-4 md:px-6">
+                <a class="flex items-center gap-2" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="h-8 w-8">
+                        <path d="M13 7 9 3 5 7l4 4"></path>
+                        <path d="m17 11 4 4-4 4-4-4"></path>
+                        <path d="m8 12 4 4 6-6-4-4Z"></path>
+                        <path d="m16 8 3-3"></path>
+                        <path d="M9 21a6 6 0 0 0-6-6"></path>
+                    </svg>
+                    <span class="font-bold text-2xl">CubeSat Solutions</span>
+                </a>
+                <div class="flex items-center gap-4">
+                    <nav class="hidden md:flex items-center gap-4">
+                        <a class="text-sm font-medium hover:underline" href="./about.html">
+                            About
+                        </a>
+                        <a class="text-sm font-medium hover:underline" href="./technology.html">
+                            Technology
+                        </a>
+                        <a class="text-sm font-medium hover:underline" href="./about.html">
+                            Team
+                        </a>
+                        <a class="text-sm font-medium hover:underline" href="./index.html">
+                            Careers
+                        </a>
+                    </nav>
+                    <div class="relative">
+                        <input
+                            class="flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 pr-8 bg-muted dark:bg-[#2c2d30] border-none focus:ring-0 focus:ring-offset-0"
+                            placeholder="Search..." type="search" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="absolute right-2 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground dark:text-muted-foreground">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </svg>
+                    </div>
+                    <a class="inline-flex h-9 items-center justify-center rounded-md bg-primary dark:bg-[#3b82f6] px-4 py-2 text-sm font-medium text-primary-foreground dark:text-primary-foreground shadow transition-colors hover:bg-primary/90 dark:hover:bg-[#3b82f6]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                        href="#">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="flex-1">
+            <section class=" model w-full bg-[url('/hero-bg.jpg')] bg-cover bg-center py-24 md:py-32 lg:py-40">
+                <spline-viewer url="https://prod.spline.design/3IdD5P0PBsyQOUhP/scene.splinecode"></spline-viewer>
+                <div class="container ">
+
+
+                    <div class="flex flex-col items-center justify-center gap-6 text-center">
+                        <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+                            Revolutionizing the CubeSat Industry
+                        </h1>
+                        <p class="max-w-[700px] text-xl text-muted-foreground dark:text-muted-foreground md:text-2xl">
+                            Discover how our innovative CubeSat solutions are transforming the future of space
+                            technology.
+                        </p>
+                        <div class="flex flex-col gap-2 min-[400px]:flex-row">
+                            <a href="#"
+                                class="inline-flex h-10 items-center justify-center rounded-md bg-primary dark:bg-[#3b82f6] px-8 text-sm font-medium text-primary-foreground dark:text-primary-foreground shadow transition-colors hover:bg-primary/90 dark:hover:bg-[#3b82f6]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                                Explore Technology
+                            </a>
+                            <a href="#"
+                                class="inline-flex h-10 items-center justify-center rounded-md border border-input dark:border-[#2c2d30] bg-background dark:bg-[#1a1b1e] px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent dark:hover:bg-[#2c2d30] hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                                Join Our Team
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="w-full py-12 md:py-24 lg:py-32">
+                <div class="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
+                    <div class="space-y-2">
+                        <h2 class="text-3xl font-bold tracking-tighter md:text-4xl/tight">About CubeSat Solutions</h2>
+                        <p
+                            class="max-w-[600px] text-muted-foreground dark:text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                            CubeSat Solutions is a leading provider of innovative CubeSat technology and services. Our
+                            team of
+                            experts is dedicated to pushing the boundaries of what's possible in the CubeSat industry.
+                        </p>
+                        <a href="#"
+                            class="inline-flex h-9 items-center justify-center rounded-md bg-primary dark:bg-[#3b82f6] px-4 py-2 text-sm font-medium text-primary-foreground dark:text-primary-foreground shadow transition-colors hover:bg-primary/90 dark:hover:bg-[#3b82f6]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                            Learn More
+                        </a>
+                    </div>
+                    <img src="/placeholder.svg" width="550" height="310" alt="CubeSat" style=""
+                        class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last" />
+                </div>
+            </section>
+            <section class="w-full py-12 md:py-24 lg:py-32 bg-muted dark:bg-[#2c2d30]">
+                <div class="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
+                    <img src="/placeholder.svg" width="550" height="310" alt="Products"
+                        class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full" />
+                    <div class="space-y-2">
+                        <h2 class="text-3xl font-bold tracking-tighter md:text-4xl/tight">Our Products and Services</h2>
+                        <p
+                            class="max-w-[600px] text-muted-foreground dark:text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                            Explore our comprehensive range of CubeSat products and services, designed to meet the
+                            unique needs of
+                            our clients.
+                        </p>
+                        <a href="#"
+                            class="inline-flex h-9 items-center justify-center rounded-md bg-primary dark:bg-[#3b82f6] px-4 py-2 text-sm font-medium text-primary-foreground dark:text-primary-foreground shadow transition-colors hover:bg-primary/90 dark:hover:bg-[#3b82f6]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="w-full py-12 md:py-24 lg:py-32">
+                <div class="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
+                    <div class="space-y-2">
+                        <h2 class="text-3xl font-bold tracking-tighter md:text-4xl/tight">Latest News and Updates</h2>
+                        <p
+                            class="max-w-[600px] text-muted-foreground dark:text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                            Stay up-to-date with the latest news, insights, and developments from CubeSat Solutions.
+                        </p>
+                        <a href="#"
+                            class="inline-flex h-9 items-center justify-center rounded-md bg-primary dark:bg-[#3b82f6] px-4 py-2 text-sm font-medium text-primary-foreground dark:text-primary-foreground shadow transition-colors hover:bg-primary/90 dark:hover:bg-[#3b82f6]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                            View News
+                        </a>
+                    </div>
+                    <div class="grid gap-4">
+                        <div class="rounded-lg border text-card-foreground shadow-sm p-4 bg-muted dark:bg-[#2c2d30]"
+                            data-v0-t="card">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">
+                                    CubeSat Solutions Wins Industry Award
+                                </h3>
+                                <p class="text-sm text-muted-foreground">
+                                    Our innovative CubeSat technology has been recognized for its excellence.
+                                </p>
+                            </div>
+                            <div class="p-6">
+                                <p>
+                                    CubeSat Solutions is proud to announce that our CubeSat platform has been awarded
+                                    the prestigious
+                                    Industry Innovation Award. This recognition highlights our commitment to pushing the
+                                    boundaries of
+                                    what's possible in the CubeSat industry.
+                                </p>
+                            </div>
+                            <div class="flex items-center p-6">
+                                <a class="text-sm font-medium hover:underline" href="#">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rounded-lg border text-card-foreground shadow-sm p-4 bg-muted dark:bg-[#2c2d30]"
+                            data-v0-t="card">
+                            <div class="flex flex-col space-y-1.5 p-6">
+                                <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">
+                                    CubeSat Solutions Expands to New Facility
+                                </h3>
+                                <p class="text-sm text-muted-foreground">
+                                    Our growing team and increasing demand for our services have led to the expansion of
+                                    our
+                                    headquarters.
+                                </p>
+                            </div>
+                            <div class="p-6">
+                                <p>
+                                    We are excited to announce the opening of our new state-of-the-art facility, which
+                                    will allow us to
+                                    better serve our clients and continue to innovate in the CubeSat industry. This
+                                    expansion is a
+                                    testament to the hard work and dedication of our team.
+                                </p>
+                            </div>
+                            <div class="flex items-center p-6">
+                                <a class="text-sm font-medium hover:underline" href="#">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-muted dark:bg-[#2c2d30] py-6 w-full shrink-0">
+            <div class="container flex flex-col gap-4 items-center px-4 md:px-6 md:flex-row md:justify-between">
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="h-6 w-6">
+                        <path d="M13 7 9 3 5 7l4 4"></path>
+                        <path d="m17 11 4 4-4 4-4-4"></path>
+                        <path d="m8 12 4 4 6-6-4-4Z"></path>
+                        <path d="m16 8 3-3"></path>
+                        <path d="M9 21a6 6 0 0 0-6-6"></path>
+                    </svg>
+                    <span class="font-bold text-lg">CubeSat Solutions</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a class="text-xs hover:underline" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="h-5 w-5">
+                            <path
+                                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
